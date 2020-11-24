@@ -43,12 +43,12 @@ const UserDetail = () => {
         )
     }
     const getUserDetails = () => {
-        fetch(`http://jsonplaceholder.typicode.com/users/${id}`)
+        fetch(`https://jsonplaceholder.typicode.com/users/${id}`)
             .then(resp => resp.json())
             .then(respJson => setDetails(respJson))
     }
     const getPosts = () => {
-        fetch(`http://jsonplaceholder.typicode.com/posts?userId=${id}`)
+        fetch(`https://jsonplaceholder.typicode.com/posts?userId=${id}`)
             .then(resp => resp.json())
             .then(respJson => setPosts(respJson))
     }

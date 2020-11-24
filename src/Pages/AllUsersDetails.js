@@ -11,7 +11,7 @@ const UserDetails = () => {
     const history = useHistory();
     const {search} = useLocation();
     const getDate = () => {
-        fetch('http://jsonplaceholder.typicode.com/users')
+        fetch('https://jsonplaceholder.typicode.com/users')
             .then(resp => resp.json())
             .then(respJson => {
                 setDate(respJson.sort((A, B) => A['name'].localeCompare(B['name'])));
