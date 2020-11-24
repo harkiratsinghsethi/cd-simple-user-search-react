@@ -1,0 +1,144 @@
+.headers {
+    width: 100%;
+    height: 50px;
+    background: #9ddb5f;
+    /*margin: 0 auto;*/
+
+}
+
+.links {
+    float: right;
+    /*padding-right: 5%;*/
+    margin-right: 3%;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .formContainer {
+        margin-left: auto;
+        /*margin-right: 0;*/
+        display: flex;
+        flex-direction: row;
+        padding: 4px;
+
+    }
+}
+
+.formAttri {
+width: 100%;
+}
+
+@media (min-width: 768px) {
+    .formAttri {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/*.container-wrapper{*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+/*@media (min-width: 768px) {*/
+/*    .container-wrapper {*/
+/*        margin:0*/
+/*    }*/
+/*}*/
+.textBox {
+    /*margin:5px;*/
+    width: 100%;
+
+}
+
+@media (min-width: 768px) {
+    .textBox {
+        width: 170px;
+
+    }
+}
+
+.usersDetails {
+    margin-top: 30px;
+}
+
+.tableStyle {
+    border: 0.5px solid #c1b9b9;
+    width: 100%;
+}
+
+tr {
+    cursor: pointer;
+}
+
+tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    border: 0.5px solid #c1b9b9;
+
+}
+
+td {
+    text-align: left;
+    padding: 15px 5px;
+
+}
+
+tr:hover {
+    background: #e8e4e4;
+}
+
+.email {
+    /*float: right;*/
+    margin-left: auto;
+}
+
+.cell {
+    display: flex;
+}
+
+/*.grid-item {*/
+/*    padding-bottom: 1rem;*/
+/*    text-align: center;*/
+/*    border-bottom: 1px solid #928e8e;*/
+/*    margin: 15px;*/
+
+/*}*/
+/*.cell{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
+/*@media (min-width: 768px) {*/
+/*    .cell {*/
+/*        display: flex;*/
+/*        !*border-left: 1px solid #928e8e;*!*/
+/*    }*/
+/*}*/
+.name {
+    margin-left: 10px;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: #aca5a5;
+}
+
+.dd {
+    width: 100%;
+    height: 30px;
+    border: 0.5px solid #c1b9b9;
+    border-radius: 3px;
+}
+
+@media (min-width: 768px) {
+    .dd {
+        margin-left: 5px;
+        width: 170px;
+    }
+}
